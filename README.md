@@ -1,7 +1,7 @@
 BankingDemo
 ===========
 
-This is an Espresso Logic sample application showing how rules are used to calculate balances, validate transactions and move funds between accounts
+This is an Espresso Logic sample application showing how rules are used to calculate balances, validate transactions and move funds between accounts - Once you have an Espresso Logic account - follow these simple steps.
 
 ###To Install###
 1. clone this project file to your local drive
