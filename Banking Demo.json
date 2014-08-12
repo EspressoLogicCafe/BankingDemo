@@ -1,81 +1,81 @@
 [
   {
     "@metadata": {
-      "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport/1006",
-      "checksum": "A:9867965961373e7c"
+      "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport/2272",
+      "checksum": "A:fd73a596f326c9bf"
     },
-    "ident": 1006,
-    "ts": "2014-07-17T08:29:14.000+0000",
+    "ident": 2272,
+    "ts": "2014-07-25T20:50:15.000+0000",
     "name": "Banking Demo",
     "url_name": "banking",
-    "comments": "Database type: \tMySQL\nDatabase server: \tlocalhost\nDatabase port: \t3306\nDatabase schema: \tBankingDemo_dem\nDatabase user name: \tBankingDemo_dem\nDatabase password: \",
-    "status": null,
-    "account_ident": 1000,
-    "authprovider_ident": 1000,
+    "comments": "Database type: \tMySQL\nDatabase server: \tuserdb03.p.espressologic.com\nDatabase port: \t3306\nDatabase schema: \tBankingDemo_dem\nDatabase user name: \tBankingDemo_dem\nDatabase password: \tnK98gUKAuAZ3",
+    "account_ident": 1661,
+    "authprovider_ident": 1621,
+    "status": "I",
     "Users": [
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Users/1011",
-          "checksum": "A:91058a37515e5573"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Users/3917",
+          "checksum": "A:bfa6eae01e5b3d77"
         },
-        "ident": 1011,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 3917,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "demo",
         "fullname": "Demo user",
         "email": "admin@espressologic.com",
         "status": "A",
         "roles": "App owner,",
         "data": "",
-        "comments": null,
         "apikey_lifespan": null,
         "password_hash": "nNeQDuMBkLTlb9xaKBhhBT/3mO1OQ27bjhhanUp180jHGtyZRKXFhJ0B1LR/46ogLYWobrs/B/+o7ZQBIyVJKQ==",
         "password_salt": "uoMUHc0PDh+CN2ttRtzxGZd41mB/GHIzRP7kqsly",
-        "project_ident": 1006
+        "project_ident": 2272,
+        "comments": null
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Users/1012",
-          "checksum": "A:0c34ab59cb502c6d"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Users/3918",
+          "checksum": "A:31db3287a7b745c9"
         },
-        "ident": 1012,
-        "ts": "2014-07-17T10:09:00.000+0000",
+        "ident": 3918,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "teller1",
         "fullname": "teller",
         "email": "new@user.com",
         "status": "A",
-        "roles": "BankTeller,Read Only,",
+        "roles": "BankTeller,",
         "data": null,
-        "comments": null,
         "apikey_lifespan": 86400,
         "password_hash": "3SGZ95atCc+FBfNH2SSBSp6Ks4tijtcEDm+k2KzKYUDhj1ffU+gBhdjhxQ+PhoLKmBCBax1EoJ04vo950uzd+g==",
         "password_salt": "gwoeOD3aSM6GmbEhSszSg4G3pwzDI4axJM94z/xx",
-        "project_ident": 1006
+        "project_ident": 2272,
+        "comments": null
       }
     ],
     "DbaseSchemas": [
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.DbaseSchemas/1012",
-          "checksum": "A:901b6bba19283bdf"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.DbaseSchemas/2423",
+          "checksum": "A:2a2e0479ad25dd71"
         },
-        "ident": 1012,
-        "ts": "2014-07-17T08:22:37.000+0000",
-        "conn_type": null,
+        "ident": 2423,
+        "ts": "2014-07-30T19:23:45.000+0000",
         "name": "Espresso Logic Demo",
         "comments": null,
-        "url": "jdbc:mysql://localhost/BankingDemo_dem",
+        "url": "jdbc:mysql://userdb03.p.espressologic.com/BankingDemo_dem",
         "catalog_name": "BankingDemo_dem",
         "schema_name": null,
         "user_name": "BankingDemo_dem",
-        "password": "2:YNwgZRlgvaFViP+knL7F67IlwsGCGUA+wUfJ8ugKcEeO3HG2I1onxA==",
-        "salt": "abjP4gtFfStKUgsCqOBKTI/TMpzoo6dARqBTmf8h",
-        "port_num": null,
+        "password": "2:VJiOnrakGroqzzEKBbxs3Xm2tZCwjjQfGWZ9Y90SL/WNGCT8MgzI6w==",
+        "salt": "7xQq4+dz4yAwn6tV5QPUyiXRLbbNClHLFCUsUwml",
         "read_only": false,
         "schema_editable": false,
         "active": true,
-        "status": "OK 51996",
-        "project_ident": 1006,
+        "status": "OK",
+        "project_ident": 2272,
         "dbasetype_ident": 1,
+        "conn_type": null,
+        "port_num": null,
         "TableInfos": [
         ]
       }
@@ -83,282 +83,299 @@
     "ApiVersions": [
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions/1006",
-          "checksum": "A:6845743561794a45"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions/2278",
+          "checksum": "A:646575d91b52e7c0"
         },
-        "ident": 1006,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 2278,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "v1",
         "comments": "",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "Resources": [
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1033",
-              "checksum": "A:9b4780f21abcce37"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9641",
+              "checksum": "A:0bfd851e82a0a0c7"
             },
-            "ident": 1033,
-            "ts": "2014-07-17T08:22:04.000+0000",
+            "ident": 9641,
+            "ts": "2014-07-24T17:27:31.000+0000",
             "resource_type_ident": 1,
-            "table_name": "CHECKING",
-            "name": "Checking",
-            "description": null,
+            "table_name": "LineItem",
+            "name": "LineItems",
+            "description": "LineItems of Order",
             "is_collection": "Y",
-            "join_condition": null,
+            "join_condition": "order_number=[order_number]",
             "filter": null,
-            "sorting": null,
+            "sorting": "product_number asc",
             "caching": null,
             "custom_class": null,
             "code_text": null,
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": 1034,
-            "root_ident": 1034,
+            "container_ident": 9643,
+            "root_ident": 9645,
             "linked_ident": null,
-            "apiversion_ident": 1006,
+            "apiversion_ident": 2278,
+            "filter_code": null,
+            "ResourceAttributes": [
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9642",
+              "checksum": "A:aae2041fd33a869a"
+            },
+            "ident": 9642,
+            "ts": "2014-07-24T17:27:31.000+0000",
+            "resource_type_ident": 1,
+            "table_name": "LineItem",
+            "name": "LineItems",
+            "description": "API example",
+            "is_collection": "Y",
+            "join_condition": "order_number=[order_number]",
+            "filter": null,
+            "sorting": "product_number asc",
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "container_ident": 9644,
+            "root_ident": 9647,
+            "linked_ident": null,
+            "apiversion_ident": 2278,
+            "filter_code": null,
             "ResourceAttributes": [
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1060",
-                  "checksum": "A:cacd41901e32c554"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23771",
+                  "checksum": "A:bf04e5b9f962ddd6"
                 },
-                "ident": 1060,
-                "ts": "2014-07-17T08:23:43.000+0000",
-                "name": "AcctNum",
-                "description": null,
-                "column_name": "AcctNum",
+                "ident": 23771,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "ProductNumber",
+                "description": "",
+                "column_name": "product_number",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1033,
-                "code_type": null
+                "resource_ident": 9642,
+                "code_type": null,
+                "is_defined_key_part": false
               },
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1061",
-                  "checksum": "A:a613a364724d709a"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23772",
+                  "checksum": "A:9c86080cb6983d43"
                 },
-                "ident": 1061,
-                "ts": "2014-07-17T08:23:43.000+0000",
-                "name": "CurrentBalance",
-                "description": null,
-                "column_name": "CurrentBalance",
+                "ident": 23772,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "OrderNumber",
+                "description": "",
+                "column_name": "order_number",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1033,
-                "code_type": null
+                "resource_ident": 9642,
+                "code_type": null,
+                "is_defined_key_part": false
               },
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1062",
-                  "checksum": "A:76562997d70d6217"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23773",
+                  "checksum": "A:d1de750f91f2e46b"
                 },
-                "ident": 1062,
-                "ts": "2014-07-17T08:23:43.000+0000",
-                "name": "AvailableBalance",
-                "description": null,
-                "column_name": "AvailableBalance",
+                "ident": 23773,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "Quantity",
+                "description": "",
+                "column_name": "qty_ordered",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1033,
-                "code_type": null
+                "resource_ident": 9642,
+                "code_type": null,
+                "is_defined_key_part": false
+              },
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23774",
+                  "checksum": "A:f09570788a3f0101"
+                },
+                "ident": 23774,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "Price",
+                "description": "",
+                "column_name": "product_price",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9642,
+                "code_type": null,
+                "is_defined_key_part": false
+              },
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23775",
+                  "checksum": "A:af1463c1a2a65475"
+                },
+                "ident": 23775,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "Amount",
+                "description": "",
+                "column_name": "amount",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9642,
+                "code_type": null,
+                "is_defined_key_part": false
               }
             ]
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1037",
-              "checksum": "A:391ae1c031752f4b"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9643",
+              "checksum": "A:3695af71bb84eec7"
             },
-            "ident": 1037,
-            "ts": "2014-07-17T08:34:28.000+0000",
+            "ident": 9643,
+            "ts": "2014-07-24T17:27:31.000+0000",
             "resource_type_ident": 1,
-            "table_name": "CHECKING",
-            "name": "RecentCheckingTransactions",
-            "description": null,
+            "table_name": "PurchaseOrder",
+            "name": "Orders",
+            "description": "Orders of Customer",
             "is_collection": "Y",
-            "join_condition": null,
+            "join_condition": "customer_name=[name]",
             "filter": null,
-            "sorting": null,
+            "sorting": "order_number desc",
             "caching": null,
             "custom_class": null,
             "code_text": null,
-            "filter_code": "",
-            "serial_filter": null,
+            "container_ident": 9645,
+            "root_ident": 9645,
+            "linked_ident": null,
+            "apiversion_ident": 2278,
+            "filter_code": null,
+            "ResourceAttributes": [
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9644",
+              "checksum": "A:d7cdfc389b21ad35"
+            },
+            "ident": 9644,
+            "ts": "2014-07-24T17:27:31.000+0000",
+            "resource_type_ident": 1,
+            "table_name": "PurchaseOrder",
+            "name": "Orders",
+            "description": "API example",
+            "is_collection": "Y",
+            "join_condition": "customer_name=[name]",
+            "filter": null,
+            "sorting": "order_number desc",
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "container_ident": 9647,
+            "root_ident": 9647,
+            "linked_ident": null,
+            "apiversion_ident": 2278,
+            "filter_code": null,
+            "ResourceAttributes": [
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23776",
+                  "checksum": "A:56c71bd49a52c8d4"
+                },
+                "ident": 23776,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "OrderNumber",
+                "description": "",
+                "column_name": "order_number",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9644,
+                "code_type": null,
+                "is_defined_key_part": false
+              },
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23777",
+                  "checksum": "A:9f5baa3d14ff1066"
+                },
+                "ident": 23777,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "TotalAmount",
+                "description": "",
+                "column_name": "amount_total",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9644,
+                "code_type": null,
+                "is_defined_key_part": false
+              },
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23778",
+                  "checksum": "A:5860e4d3c990fe40"
+                },
+                "ident": 23778,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "Paid",
+                "description": "",
+                "column_name": "paid",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9644,
+                "code_type": null,
+                "is_defined_key_part": false
+              },
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23779",
+                  "checksum": "A:7ada285cd4fbddad"
+                },
+                "ident": 23779,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "Notes",
+                "description": "",
+                "column_name": "notes",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9644,
+                "code_type": null,
+                "is_defined_key_part": false
+              }
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9645",
+              "checksum": "A:86ab8ccc2a7972cb"
+            },
+            "ident": 9645,
+            "ts": "2014-07-24T17:27:31.000+0000",
+            "resource_type_ident": 1,
+            "table_name": "customer",
+            "name": "CustomerBusinessObject",
+            "description": "all customer attributes and related child data",
+            "is_collection": "Y",
+            "join_condition": null,
+            "filter": null,
+            "sorting": "name asc",
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
             "container_ident": null,
-            "root_ident": 1037,
+            "root_ident": 9645,
             "linked_ident": null,
-            "apiversion_ident": 1006,
+            "apiversion_ident": 2278,
+            "filter_code": null,
             "ResourceAttributes": [
             ]
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1038",
-              "checksum": "A:e9aa3c8bdcfe6e8a"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9646",
+              "checksum": "A:586015cabe37be97"
             },
-            "ident": 1038,
-            "ts": "2014-07-17T08:33:26.000+0000",
+            "ident": 9646,
+            "ts": "2014-07-24T17:27:31.000+0000",
             "resource_type_ident": 1,
-            "table_name": "CHECKING_TRANS",
-            "name": "Checking",
-            "description": null,
-            "is_collection": "Y",
-            "join_condition": "AcctNum= [AcctNum] AND CustNum= [CustNum]",
-            "filter": "TransDate > DATE_SUB(TransDate,INTERVAL 5 DAY)",
-            "sorting": null,
-            "caching": null,
-            "custom_class": null,
-            "code_text": null,
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": 1037,
-            "root_ident": 1037,
-            "linked_ident": null,
-            "apiversion_ident": 1006,
-            "ResourceAttributes": [
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1072",
-                  "checksum": "A:5f5387f469c63b80"
-                },
-                "ident": 1072,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "TransId",
-                "description": null,
-                "column_name": "TransId",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1073",
-                  "checksum": "A:cc98c3e86a011190"
-                },
-                "ident": 1073,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "AcctNum",
-                "description": null,
-                "column_name": "AcctNum",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1074",
-                  "checksum": "A:00b1b055f8764961"
-                },
-                "ident": 1074,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "CustNum",
-                "description": null,
-                "column_name": "CustNum",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1075",
-                  "checksum": "A:0119fa2260d906eb"
-                },
-                "ident": 1075,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "TransDate",
-                "description": null,
-                "column_name": "TransDate",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1076",
-                  "checksum": "A:7c2205141690fa36"
-                },
-                "ident": 1076,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "DepositAmt",
-                "description": null,
-                "column_name": "DepositAmt",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1077",
-                  "checksum": "A:ed9882ecf4d31f36"
-                },
-                "ident": 1077,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "WithdrawlAmt",
-                "description": null,
-                "column_name": "WithdrawlAmt",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1078",
-                  "checksum": "A:ad81d026ef5f36c2"
-                },
-                "ident": 1078,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "Total",
-                "description": null,
-                "column_name": "Total",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1079",
-                  "checksum": "A:5ad7b6ed33f17820"
-                },
-                "ident": 1079,
-                "ts": "2014-07-17T08:31:53.000+0000",
-                "name": "PendingFlag",
-                "description": null,
-                "column_name": "PendingFlag",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1038,
-                "code_type": null
-              }
-            ]
-          },
-          {
-            "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1034",
-              "checksum": "A:888bd92e99d85228"
-            },
-            "ident": 1034,
-            "ts": "2014-07-17T08:22:04.000+0000",
-            "resource_type_ident": 1,
-            "table_name": "CUSTOMER",
-            "name": "CustomersAndAccounts",
+            "table_name": "customer",
+            "name": "AllCustomers",
             "description": "Query for all customers",
             "is_collection": "Y",
             "join_condition": null,
@@ -367,522 +384,328 @@
             "caching": null,
             "custom_class": null,
             "code_text": null,
-            "filter_code": "",
-            "serial_filter": null,
             "container_ident": null,
-            "root_ident": 1034,
+            "root_ident": 9646,
             "linked_ident": null,
-            "apiversion_ident": 1006,
+            "apiversion_ident": 2278,
+            "filter_code": null,
             "ResourceAttributes": [
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1054",
-                  "checksum": "A:020f1be8ccba2d4c"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23780",
+                  "checksum": "A:ef5527c741d1692a"
                 },
-                "ident": 1054,
-                "ts": "2014-07-17T08:23:22.000+0000",
-                "name": "CustNum",
-                "description": null,
-                "column_name": "CustNum",
+                "ident": 23780,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "name",
+                "description": "",
+                "column_name": "name",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1034,
-                "code_type": null
+                "resource_ident": 9646,
+                "code_type": null,
+                "is_defined_key_part": false
               },
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1055",
-                  "checksum": "A:64a37ea136ee9f34"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23781",
+                  "checksum": "A:046b521a4286306b"
                 },
-                "ident": 1055,
-                "ts": "2014-07-17T08:23:22.000+0000",
+                "ident": 23781,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "balance",
+                "description": "",
+                "column_name": "balance",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9646,
+                "code_type": null,
+                "is_defined_key_part": false
+              }
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9647",
+              "checksum": "A:bfcaa8ead23d89a2"
+            },
+            "ident": 9647,
+            "ts": "2014-07-24T17:27:31.000+0000",
+            "resource_type_ident": 1,
+            "table_name": "customer",
+            "name": "Customers",
+            "description": "API example - illustrates attribute aliasing / projection",
+            "is_collection": "Y",
+            "join_condition": null,
+            "filter": null,
+            "sorting": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "container_ident": null,
+            "root_ident": 9647,
+            "linked_ident": null,
+            "apiversion_ident": 2278,
+            "filter_code": null,
+            "ResourceAttributes": [
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23782",
+                  "checksum": "A:c4be5f346656264d"
+                },
+                "ident": 23782,
+                "ts": "2014-07-24T17:27:30.000+0000",
                 "name": "Name",
-                "description": null,
-                "column_name": "Name",
+                "description": "",
+                "column_name": "name",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1034,
-                "code_type": null
+                "resource_ident": 9647,
+                "code_type": null,
+                "is_defined_key_part": false
               },
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1056",
-                  "checksum": "A:c66126dd00f8341a"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23783",
+                  "checksum": "A:2dc9265bfbf3bd80"
                 },
-                "ident": 1056,
-                "ts": "2014-07-17T08:23:22.000+0000",
-                "name": "Street",
-                "description": null,
-                "column_name": "Street",
+                "ident": 23783,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "Balance",
+                "description": "",
+                "column_name": "balance",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1034,
-                "code_type": null
+                "resource_ident": 9647,
+                "code_type": null,
+                "is_defined_key_part": false
               },
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1057",
-                  "checksum": "A:242ff735b5e86fbf"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23784",
+                  "checksum": "A:bac5b36c2ab3ceab"
                 },
-                "ident": 1057,
-                "ts": "2014-07-17T08:23:22.000+0000",
-                "name": "City",
-                "description": null,
-                "column_name": "City",
+                "ident": 23784,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "CreditLimit",
+                "description": "",
+                "column_name": "credit_limit",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1034,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1058",
-                  "checksum": "A:5a5634faef0bc347"
-                },
-                "ident": 1058,
-                "ts": "2014-07-17T08:23:22.000+0000",
-                "name": "State",
-                "description": null,
-                "column_name": "State",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1034,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1059",
-                  "checksum": "A:f503740808e14beb"
-                },
-                "ident": 1059,
-                "ts": "2014-07-17T08:23:22.000+0000",
-                "name": "ZIP",
-                "description": null,
-                "column_name": "ZIP",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1034,
-                "code_type": null
+                "resource_ident": 9647,
+                "code_type": null,
+                "is_defined_key_part": false
               }
             ]
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1036",
-              "checksum": "A:4e1081d86807df97"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9648",
+              "checksum": "A:4b62b0f83e50e2f1"
             },
-            "ident": 1036,
-            "ts": "2014-07-17T08:25:58.000+0000",
+            "ident": 9648,
+            "ts": "2014-07-24T17:27:31.000+0000",
             "resource_type_ident": 1,
-            "table_name": "CUSTOMER",
-            "name": "CustomerAddressChange",
-            "description": null,
-            "is_collection": "Y",
-            "join_condition": null,
-            "filter": "isActive = 1",
+            "table_name": "product",
+            "name": "Product",
+            "description": "Product for LineItem",
+            "is_collection": "N",
+            "join_condition": "product_number=[product_number]",
+            "filter": null,
             "sorting": null,
             "caching": null,
             "custom_class": null,
             "code_text": null,
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": null,
-            "root_ident": 1036,
+            "container_ident": 9641,
+            "root_ident": 9645,
             "linked_ident": null,
-            "apiversion_ident": 1006,
+            "apiversion_ident": 2278,
+            "filter_code": null,
+            "ResourceAttributes": [
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9649",
+              "checksum": "A:94957a81d358b8d2"
+            },
+            "ident": 9649,
+            "ts": "2014-07-24T17:27:31.000+0000",
+            "resource_type_ident": 1,
+            "table_name": "product",
+            "name": "Products",
+            "description": "Query for all products",
+            "is_collection": "Y",
+            "join_condition": null,
+            "filter": null,
+            "sorting": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "container_ident": null,
+            "root_ident": 9649,
+            "linked_ident": null,
+            "apiversion_ident": 2278,
+            "filter_code": null,
             "ResourceAttributes": [
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1066",
-                  "checksum": "A:c5f517f84e7e33af"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23785",
+                  "checksum": "A:f42f2e63ad676118"
                 },
-                "ident": 1066,
-                "ts": "2014-07-17T08:25:38.000+0000",
-                "name": "CustNum",
-                "description": null,
-                "column_name": "CustNum",
+                "ident": 23785,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "name",
+                "description": "",
+                "column_name": "name",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1036,
-                "code_type": null
+                "resource_ident": 9649,
+                "code_type": null,
+                "is_defined_key_part": false
               },
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1067",
-                  "checksum": "A:1b50c59c7a1be7bd"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23786",
+                  "checksum": "A:cb67e9fd4336dc8c"
                 },
-                "ident": 1067,
-                "ts": "2014-07-17T08:25:38.000+0000",
-                "name": "State",
-                "description": null,
-                "column_name": "State",
+                "ident": 23786,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "price",
+                "description": "",
+                "column_name": "price",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1036,
-                "code_type": null
-              },
+                "resource_ident": 9649,
+                "code_type": null,
+                "is_defined_key_part": false
+              }
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9650",
+              "checksum": "A:52f78fefdf507246"
+            },
+            "ident": 9650,
+            "ts": "2014-07-24T17:27:31.000+0000",
+            "resource_type_ident": 1,
+            "table_name": "product",
+            "name": "Product",
+            "description": "Query for product",
+            "is_collection": "N",
+            "join_condition": "product_number=[product_number]",
+            "filter": null,
+            "sorting": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "container_ident": 9642,
+            "root_ident": 9647,
+            "linked_ident": null,
+            "apiversion_ident": 2278,
+            "filter_code": null,
+            "ResourceAttributes": [
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1068",
-                  "checksum": "A:5795fd2954c44320"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23787",
+                  "checksum": "A:f8ec5d0e3f427ccd"
                 },
-                "ident": 1068,
-                "ts": "2014-07-17T08:25:38.000+0000",
-                "name": "Street",
-                "description": null,
-                "column_name": "Street",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1036,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1069",
-                  "checksum": "A:3da27c70756d28e0"
-                },
-                "ident": 1069,
-                "ts": "2014-07-17T08:25:38.000+0000",
-                "name": "City",
-                "description": null,
-                "column_name": "City",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1036,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1070",
-                  "checksum": "A:78881cc66a67f011"
-                },
-                "ident": 1070,
-                "ts": "2014-07-17T08:25:38.000+0000",
+                "ident": 23787,
+                "ts": "2014-07-24T17:27:30.000+0000",
                 "name": "Name",
-                "description": null,
-                "column_name": "Name",
+                "description": "",
+                "column_name": "name",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1036,
-                "code_type": null
+                "resource_ident": 9650,
+                "code_type": null,
+                "is_defined_key_part": false
               },
               {
                 "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1071",
-                  "checksum": "A:ac3c6ac281eef7ac"
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23788",
+                  "checksum": "A:5ab1af15ba458414"
                 },
-                "ident": 1071,
-                "ts": "2014-07-17T08:25:38.000+0000",
-                "name": "ZIP",
-                "description": null,
-                "column_name": "ZIP",
+                "ident": 23788,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "Price",
+                "description": "",
+                "column_name": "price",
                 "format": null,
                 "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1036,
-                "code_type": null
+                "resource_ident": 9650,
+                "code_type": null,
+                "is_defined_key_part": false
+              },
+              {
+                "@metadata": {
+                  "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/23789",
+                  "checksum": "A:7be55005834cf1a9"
+                },
+                "ident": 23789,
+                "ts": "2014-07-24T17:27:30.000+0000",
+                "name": "ProductId",
+                "description": "",
+                "column_name": "product_number",
+                "format": null,
+                "formula": null,
+                "resource_ident": 9650,
+                "code_type": null,
+                "is_defined_key_part": false
               }
             ]
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1042",
-              "checksum": "A:e4a6e9f2d8cac2ea"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9651",
+              "checksum": "A:267c7e6dc529bd2d"
             },
-            "ident": 1042,
-            "ts": "2014-07-17T09:35:21.000+0000",
-            "resource_type_ident": 3,
-            "table_name": "CUSTOMER",
-            "name": "CustomerAcctsMongo",
-            "description": null,
-            "is_collection": "Y",
-            "join_condition": null,
-            "filter": null,
-            "sorting": null,
-            "caching": null,
-            "custom_class": null,
-            "code_text": "//we connect to Mongo and return the Customer collection\nvar mongo = new com.mongodb.MongoClient(\"localhost\", 27017);\nvar sampleDB = mongo.getDB(\"Banking\");\nvar customers = sampleDB.getCollection(\"CUSTOMER\");\nvar checking = sampleDB.getCollection(\"CHECKING\");\nvar savings = sampleDB.getCollection(\"SAVINGS\");\nvar customerCursor = customers.findOne();\nvar custRecord =  JSON.parse(customerCursor);\nvar custnum = custRecord.CustNum;\nvar query = new com.mongodb.BasicDBObject(\"CustNum\",new com.mongodb.BasicDBObject(\"$eq\", custnum));\nvar checkingCursor = checking.find(query);\nvar savingsCursor = savings.find(query);\n\nreturn custRecord;",
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": null,
-            "root_ident": 1042,
-            "linked_ident": null,
-            "apiversion_ident": 1006,
-            "ResourceAttributes": [
-            ]
-          },
-          {
-            "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1044",
-              "checksum": "A:55924b6e655d86cc"
-            },
-            "ident": 1044,
-            "ts": "2014-07-17T09:50:15.000+0000",
-            "resource_type_ident": 3,
-            "table_name": "CUSTOMER",
-            "name": "UnityMongoCustomer",
-            "description": null,
-            "is_collection": "Y",
-            "join_condition": null,
-            "filter": null,
-            "sorting": null,
-            "caching": null,
-            "custom_class": null,
-            "code_text": "java.lang.Class.forName(\"mongodb.jdbc.MongoDriver\");\nvar url=\"jdbc:mongo://localhost/Banking\";\nvar con = java.sql.DriverManager.getConnection(url, null, null);\nvar stmt = con.createStatement();\nvar sql = \"SELECT * FROM CUSTOMER where CustNum = 1;\";\nvar rst = stmt.executeQuery(sql);\nvar meta = rst.getMetaData();\nvar numColumns = meta.getColumnCount();\nvar colName = \"\";\nvar row = \"{\";\nvar sep = \"\";\nvar result = \"\";\n\trow = \"\";\n\tif (rst.next()){\n\t\tfor (var j = 2; j <= numColumns; j++){\n\t\t   colName = meta.getColumnName(j);\n\t\t    row = rst.getObject(j); \n\t        result += sep + colName + ':' + row;\n\t        sep = \",\";\n\t    }\n\t}\n\nresult += \"}\";\nrst.close();\nstmt.close();\ncon.close();\n\nreturn {result: JSON.stringify(result)};",
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": null,
-            "root_ident": 1044,
-            "linked_ident": null,
-            "apiversion_ident": 1006,
-            "ResourceAttributes": [
-            ]
-          },
-          {
-            "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1045",
-              "checksum": "A:272ee8ccb80c674a"
-            },
-            "ident": 1045,
-            "ts": "2014-07-17T11:48:09.000+0000",
-            "resource_type_ident": 3,
-            "table_name": "CUSTOMER",
-            "name": "geolookup",
-            "description": "Using the address of a customer - we return the lat/long",
-            "is_collection": "Y",
-            "join_condition": null,
-            "filter": null,
-            "sorting": null,
-            "caching": null,
-            "custom_class": null,
-            "code_text": "var address = filter;\nvar results = {};\nif(filter != null){\nvar API_KEY = 'AIzaSyDj2pj6X6rcMnmfcmLDzmqXeqMLqSB-tuA';\naddress='1600+Amphitheatre+Parkway,+Mountain+View,+CA'\nvar url = 'https://maps.googleapis.com/maps/api/geocode/json?address='+address+'&key='+API_KEY\n//make a goole call and get back a response\nvar response = JSON.parse( SysUtility.restGet(url,null,{}));\nresults = response.results;\n//geometry.location.lat and .lng\n}\nreturn results",
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": null,
-            "root_ident": 1045,
-            "linked_ident": null,
-            "apiversion_ident": 1006,
-            "ResourceAttributes": [
-            ]
-          },
-          {
-            "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1046",
-              "checksum": "A:65b7484ad0e87389"
-            },
-            "ident": 1046,
-            "ts": "2014-07-17T13:16:38.000+0000",
-            "resource_type_ident": 3,
-            "table_name": "CUSTOMER",
-            "name": "UpdateMongoCustomer",
-            "description": null,
-            "is_collection": "Y",
-            "join_condition": null,
-            "filter": null,
-            "sorting": null,
-            "caching": null,
-            "custom_class": null,
-            "code_text": "",
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": null,
-            "root_ident": 1046,
-            "linked_ident": null,
-            "apiversion_ident": 1006,
-            "ResourceAttributes": [
-            ]
-          },
-          {
-            "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1035",
-              "checksum": "A:f2460c273da97e5b"
-            },
-            "ident": 1035,
-            "ts": "2014-07-17T08:22:04.000+0000",
+            "ident": 9651,
+            "ts": "2014-07-24T17:27:31.000+0000",
             "resource_type_ident": 1,
-            "table_name": "SAVINGS",
-            "name": "Savings",
-            "description": null,
-            "is_collection": "Y",
-            "join_condition": "CustNum= [CustNum]",
+            "table_name": "product",
+            "name": "ProductDetailLink",
+            "description": "Product Detail",
+            "is_collection": "N",
+            "join_condition": "product_number=[product_number]",
             "filter": null,
             "sorting": null,
             "caching": null,
             "custom_class": null,
             "code_text": null,
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": 1034,
-            "root_ident": 1034,
-            "linked_ident": null,
-            "apiversion_ident": 1006,
+            "container_ident": 9650,
+            "root_ident": 9647,
+            "linked_ident": 9649,
+            "apiversion_ident": 2278,
+            "filter_code": null,
             "ResourceAttributes": [
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1063",
-                  "checksum": "A:a68b992fa5bbb996"
-                },
-                "ident": 1063,
-                "ts": "2014-07-17T08:23:52.000+0000",
-                "name": "AcctNum",
-                "description": null,
-                "column_name": "AcctNum",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1035,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1064",
-                  "checksum": "A:20b1e112751d20da"
-                },
-                "ident": 1064,
-                "ts": "2014-07-17T08:23:52.000+0000",
-                "name": "CurrentBalance",
-                "description": null,
-                "column_name": "CurrentBalance",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1035,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1065",
-                  "checksum": "A:8b6f98033fbdf452"
-                },
-                "ident": 1065,
-                "ts": "2014-07-17T08:23:52.000+0000",
-                "name": "AvailableBalance",
-                "description": null,
-                "column_name": "AvailableBalance",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1035,
-                "code_type": null
-              }
             ]
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1041",
-              "checksum": "A:3e6602f9c253983f"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/9652",
+              "checksum": "A:2b18ebdc95b40aff"
             },
-            "ident": 1041,
-            "ts": "2014-07-17T08:53:36.000+0000",
+            "ident": 9652,
+            "ts": "2014-07-24T17:27:31.000+0000",
             "resource_type_ident": 1,
-            "table_name": "TRANSFR_FUNDS",
-            "name": "FundsTransfer",
-            "description": null,
+            "table_name": "purchaseorder_audit",
+            "name": "OrderAudits",
+            "description": "Audits of Order",
             "is_collection": "Y",
-            "join_condition": null,
+            "join_condition": "order_number=[order_number]",
             "filter": null,
             "sorting": null,
             "caching": null,
             "custom_class": null,
             "code_text": null,
-            "filter_code": "",
-            "serial_filter": null,
-            "container_ident": null,
-            "root_ident": 1041,
+            "container_ident": 9641,
+            "root_ident": 9645,
             "linked_ident": null,
-            "apiversion_ident": 1006,
+            "apiversion_ident": 2278,
+            "filter_code": null,
             "ResourceAttributes": [
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1087",
-                  "checksum": "A:0ffec5f28dafb8c5"
-                },
-                "ident": 1087,
-                "ts": "2014-07-17T08:53:36.000+0000",
-                "name": "FromAcct",
-                "description": null,
-                "column_name": "FromAcct",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1041,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1088",
-                  "checksum": "A:3548b5ed41d5ea5b"
-                },
-                "ident": 1088,
-                "ts": "2014-07-17T08:53:36.000+0000",
-                "name": "FromCustNum",
-                "description": null,
-                "column_name": "FromCustNum",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1041,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1089",
-                  "checksum": "A:5e7e5440611f1c4f"
-                },
-                "ident": 1089,
-                "ts": "2014-07-17T08:53:36.000+0000",
-                "name": "ToAcct",
-                "description": null,
-                "column_name": "ToAcct",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1041,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1090",
-                  "checksum": "A:c099e6d1673d3822"
-                },
-                "ident": 1090,
-                "ts": "2014-07-17T08:53:36.000+0000",
-                "name": "ToCustNum",
-                "description": null,
-                "column_name": "ToCustNum",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1041,
-                "code_type": null
-              },
-              {
-                "@metadata": {
-                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1091",
-                  "checksum": "A:9ecfe1b3737744b8"
-                },
-                "ident": 1091,
-                "ts": "2014-07-17T08:53:36.000+0000",
-                "name": "TransferAmt",
-                "description": null,
-                "column_name": "TransferAmt",
-                "format": null,
-                "formula": null,
-                "is_defined_key_part": false,
-                "resource_ident": 1041,
-                "code_type": null
-              }
             ]
           }
         ]
@@ -891,123 +714,123 @@
     "ProjectOptions": [
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1065",
-          "checksum": "A:fe60d9cf939a09eb"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16307",
+          "checksum": "A:ce65873619f238f0"
         },
-        "ident": 1065,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16307,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "false",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1066",
-          "checksum": "A:89ed968f5f6ebfdc"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16308",
+          "checksum": "A:ca5560aa5969b2a2"
         },
-        "ident": 1066,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16308,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "http://www.espressologic.com/rest/",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 2
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1067",
-          "checksum": "A:d49358753680ae6c"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16309",
+          "checksum": "A:2b7ad1bffa422e74"
         },
-        "ident": 1067,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16309,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "false",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 3
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1068",
-          "checksum": "A:17e3891d49e50d9b"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16310",
+          "checksum": "A:46ef8353b808dcc5"
         },
-        "ident": 1068,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16310,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "@metadata",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 4
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1069",
-          "checksum": "A:f2db765d4a6d63b8"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16311",
+          "checksum": "A:11ef70e86f503470"
         },
-        "ident": 1069,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16311,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "2000",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 5
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1070",
-          "checksum": "A:587b84fd0ad67e2d"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16312",
+          "checksum": "A:6f6cf5493135268e"
         },
-        "ident": 1070,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16312,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "6000",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 6
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1071",
-          "checksum": "A:8e11aca4a02ad77d"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16313",
+          "checksum": "A:08ca9d938d65e007"
         },
-        "ident": 1071,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16313,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "20",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 7
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1072",
-          "checksum": "A:32e17f0df292bfb6"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16314",
+          "checksum": "A:c8a17758b61f04e6"
         },
-        "ident": 1072,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16314,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "5000",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 8
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1073",
-          "checksum": "A:7f40f77e7a966196"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16315",
+          "checksum": "A:a7712aaac6fe2037"
         },
-        "ident": 1073,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16315,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "20",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 9
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1074",
-          "checksum": "A:9bcdf729489721a4"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16316",
+          "checksum": "A:aab9d18f598df7b5"
         },
-        "ident": 1074,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16316,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "100",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 10
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1075",
-          "checksum": "A:f7f0c615e430648b"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/16317",
+          "checksum": "A:ff181b29dc184fa6"
         },
-        "ident": 1075,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 16317,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "option_value": "2000",
-        "project_ident": 1006,
+        "project_ident": 2272,
         "projectoptiontype_ident": 11
       }
     ],
@@ -1016,11 +839,11 @@
     "Rules": [
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1085",
-          "checksum": "A:8e53658adb5e0019"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6600",
+          "checksum": "A:5692c1d68894e229"
         },
-        "ident": 1085,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6600,
+        "ts": "2014-08-01T21:01:09.000+0000",
         "entity_name": "CHECKING",
         "attribute_name": null,
         "prop1": null,
@@ -1028,27 +851,27 @@
         "prop3": null,
         "prop4": "javascript",
         "prop5": null,
-        "rule_text1": "if(row.AvailableBalance < 0){\n    return false;//(row.AvailableBalance + row.CreditLimit) < 0\n}\nreturn true;",
+        "rule_text1": "if(row.AvailableBalance < 0){\n    //lets check the Line of Credit\n    var loc = SysLogic.findWhere(\n    row.fk_CHECKING_CUSTOMER.LINE_OF_CREDITList,  // input collection\n    \"row.CustNum = \"+row.CustNum,        // filter\n    \"placed_date a\")   ;              // sort \n    return (row.AvailableBalance + row.CreditLimit) < 0\n}\nreturn true;",
         "rule_text2": "You have overdrawn your credit limit {CreditLimit} on this account.",
         "rule_text3": null,
         "rule_text4": null,
         "rule_text5": null,
         "predicate": null,
         "name": null,
-        "auto_name": "Commit validation if(row.AvailableBalance < 0){\n    return false;//(row.AvailableBalance + row.CreditLimit) < 0\n}\nreturn true;",
+        "auto_name": "Validation if(row.AvailableBalance < 0){\n    //lets check the Line of Credit\n    var loc = SysLogic.findWhere(\n    row.fk_CHECKING_CUSTOMER.LINE_OF...",
         "verbs": null,
-        "comments": "Future - create a line of credit and add the overdraft amount and bank fee",
+        "comments": null,
         "active": true,
-        "project_ident": 1006,
-        "ruletype_ident": 6
+        "project_ident": 2272,
+        "ruletype_ident": 5
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1086",
-          "checksum": "A:ad7855918296f5b7"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6602",
+          "checksum": "A:2cc0b3d3fce87acb"
         },
-        "ident": 1086,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6602,
+        "ts": "2014-07-30T19:33:20.000+0000",
         "entity_name": "CHECKING",
         "attribute_name": "AvailableBalance",
         "prop1": null,
@@ -1062,21 +885,21 @@
         "rule_text4": null,
         "rule_text5": null,
         "predicate": null,
-        "name": null,
+        "name": "Checking.AvailableBalance is SUM(Checking_Trans.Total)",
         "auto_name": "Derive AvailableBalance as sum(CHECKING_TRANSList.Total where PendingFlag = 0)",
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1087",
-          "checksum": "A:a825ae433de0a7b7"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6603",
+          "checksum": "A:913bbd3ba440960e"
         },
-        "ident": 1087,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6603,
+        "ts": "2014-08-05T22:14:21.000+0000",
         "entity_name": "CHECKING",
         "attribute_name": "CreditLimit",
         "prop1": null,
@@ -1084,27 +907,27 @@
         "prop3": null,
         "prop4": null,
         "prop5": null,
-        "rule_text1": "fk_checking_valid_credit1",
+        "rule_text1": "fk_valid_credit",
         "rule_text2": "MaxCreditLimit",
         "rule_text3": null,
         "rule_text4": null,
         "rule_text5": null,
         "predicate": null,
         "name": null,
-        "auto_name": "Derive CreditLimit as parentcopy(fk_checking_valid_credit1.MaxCreditLimit)",
+        "auto_name": "Derive CreditLimit as parentcopy(fk_valid_credit.MaxCreditLimit)",
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 4
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1088",
-          "checksum": "A:f32b3aecdc4d6a90"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6604",
+          "checksum": "A:6f256b07bf907d5c"
         },
-        "ident": 1088,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6604,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CHECKING",
         "attribute_name": "CurrentBalance",
         "prop1": null,
@@ -1123,16 +946,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1089",
-          "checksum": "A:097dbcc4d8758035"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6605",
+          "checksum": "A:a4da7060d2b65cc8"
         },
-        "ident": 1089,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6605,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CHECKING",
         "attribute_name": "Deposits",
         "prop1": null,
@@ -1151,16 +974,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1090",
-          "checksum": "A:b66ef47ba72970be"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6606",
+          "checksum": "A:0a175aad263d345d"
         },
-        "ident": 1090,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6606,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CHECKING",
         "attribute_name": "ItemCount",
         "prop1": null,
@@ -1179,16 +1002,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 2
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1091",
-          "checksum": "A:b4e8eb3781f9fa48"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6607",
+          "checksum": "A:23a1989450526fe9"
         },
-        "ident": 1091,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6607,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CHECKING",
         "attribute_name": "Withdrawls",
         "prop1": null,
@@ -1207,44 +1030,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1092",
-          "checksum": "A:35e59ba5ac0c0801"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6609",
+          "checksum": "A:799f24fa281d0fc0"
         },
-        "ident": 1092,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "entity_name": "CHECKING_TRANS",
-        "attribute_name": null,
-        "prop1": null,
-        "prop2": null,
-        "prop3": null,
-        "prop4": null,
-        "prop5": null,
-        "rule_text1": null,
-        "rule_text2": null,
-        "rule_text3": null,
-        "rule_text4": null,
-        "rule_text5": null,
-        "predicate": null,
-        "name": null,
-        "auto_name": "Derive null as sum(null.null)",
-        "verbs": null,
-        "comments": null,
-        "active": false,
-        "project_ident": 1006,
-        "ruletype_ident": 1
-      },
-      {
-        "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1093",
-          "checksum": "A:ca5a3c2e245d16d9"
-        },
-        "ident": 1093,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6609,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CHECKING_TRANS",
         "attribute_name": null,
         "prop1": null,
@@ -1263,16 +1058,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 6
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1094",
-          "checksum": "A:7bb886ec59890ddb"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6610",
+          "checksum": "A:466bd65cb0cff1b2"
         },
-        "ident": 1094,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6610,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CHECKING_TRANS",
         "attribute_name": null,
         "prop1": null,
@@ -1291,16 +1086,16 @@
         "verbs": "INSERT,",
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 8
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1095",
-          "checksum": "A:a04364991b781601"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6611",
+          "checksum": "A:bfc29c506caae55c"
         },
-        "ident": 1095,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6611,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CHECKING_TRANS",
         "attribute_name": "Total",
         "prop1": null,
@@ -1319,16 +1114,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 3
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1096",
-          "checksum": "A:23fb3e2e217639dc"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6612",
+          "checksum": "A:8210db355304d5bd"
         },
-        "ident": 1096,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6612,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CUSTOMER",
         "attribute_name": "CheckingAcctBal",
         "prop1": null,
@@ -1347,16 +1142,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1097",
-          "checksum": "A:caa79e42c70bd190"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6613",
+          "checksum": "A:4f2c7cb75aa5cdf6"
         },
-        "ident": 1097,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6613,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CUSTOMER",
         "attribute_name": "SavingsAcctBal",
         "prop1": null,
@@ -1375,16 +1170,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1098",
-          "checksum": "A:18c96bd177516611"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6614",
+          "checksum": "A:5be0a4e35c64dba8"
         },
-        "ident": 1098,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6614,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "CUSTOMER",
         "attribute_name": "TotalBalance",
         "prop1": null,
@@ -1403,16 +1198,128 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 3
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1099",
-          "checksum": "A:f6340964ac05e366"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6850",
+          "checksum": "A:55162ccd1968ac4c"
         },
-        "ident": 1099,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6850,
+        "ts": "2014-08-01T19:35:22.000+0000",
+        "entity_name": "LINE_OF_CREDIT",
+        "attribute_name": null,
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": "javascript",
+        "prop5": null,
+        "rule_text1": "if(row.OverdaftFeeAmt == null){\n    row.OverdaftFeeAmt = 35;\n}",
+        "rule_text2": null,
+        "rule_text3": null,
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Event: if(row.OverdaftFeeAmt == null){\n    row.OverdaftFeeAmt = 35;\n}.null",
+        "verbs": "INSERT,",
+        "comments": null,
+        "active": true,
+        "project_ident": 2272,
+        "ruletype_ident": 7
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6848",
+          "checksum": "A:2131f8d326dcc5bb"
+        },
+        "ident": 6848,
+        "ts": "2014-08-01T19:34:01.000+0000",
+        "entity_name": "LINE_OF_CREDIT",
+        "attribute_name": "AvailableBalance",
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": "javascript",
+        "prop5": null,
+        "rule_text1": "return row.TotalPayments  - row.TotalCharges ",
+        "rule_text2": null,
+        "rule_text3": null,
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Derive AvailableBalance as return row.TotalPayments  - row.TotalCharges ",
+        "verbs": null,
+        "comments": null,
+        "active": true,
+        "project_ident": 2272,
+        "ruletype_ident": 3
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6845",
+          "checksum": "A:9438732f23a9d1cc"
+        },
+        "ident": 6845,
+        "ts": "2014-08-01T19:31:59.000+0000",
+        "entity_name": "LINE_OF_CREDIT",
+        "attribute_name": "TotalCharges",
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": null,
+        "prop5": null,
+        "rule_text1": "LOC_TRANSACTIONSList",
+        "rule_text2": null,
+        "rule_text3": "ChargeAmt",
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Derive TotalCharges as sum(LOC_TRANSACTIONSList.ChargeAmt)",
+        "verbs": null,
+        "comments": null,
+        "active": true,
+        "project_ident": 2272,
+        "ruletype_ident": 1
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6847",
+          "checksum": "A:3da730efb8dbc568"
+        },
+        "ident": 6847,
+        "ts": "2014-08-01T19:32:56.000+0000",
+        "entity_name": "LINE_OF_CREDIT",
+        "attribute_name": "TotalPayments",
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": null,
+        "prop5": null,
+        "rule_text1": "LOC_TRANSACTIONSList",
+        "rule_text2": null,
+        "rule_text3": "PaymentAmt",
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Derive TotalPayments as sum(LOC_TRANSACTIONSList.PaymentAmt)",
+        "verbs": null,
+        "comments": null,
+        "active": true,
+        "project_ident": 2272,
+        "ruletype_ident": 1
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6616",
+          "checksum": "A:ec8a2a47f9b2f404"
+        },
+        "ident": 6616,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS",
         "attribute_name": null,
         "prop1": null,
@@ -1431,16 +1338,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 6
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1100",
-          "checksum": "A:09798d1d45b48b02"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6617",
+          "checksum": "A:a4bacca7d05e363b"
         },
-        "ident": 1100,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6617,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS",
         "attribute_name": "AvailableBalance",
         "prop1": null,
@@ -1459,16 +1366,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1101",
-          "checksum": "A:675553b2f6834441"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6618",
+          "checksum": "A:8efb2cba5eb9331a"
         },
-        "ident": 1101,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6618,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS",
         "attribute_name": "CurrentBalance",
         "prop1": null,
@@ -1487,16 +1394,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1102",
-          "checksum": "A:2d7bea4ffe4c7616"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6619",
+          "checksum": "A:a540df77ff78d734"
         },
-        "ident": 1102,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6619,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS",
         "attribute_name": "Deposits",
         "prop1": null,
@@ -1515,16 +1422,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1103",
-          "checksum": "A:4d5589089e6385ad"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6620",
+          "checksum": "A:9669ff1ea9b81861"
         },
-        "ident": 1103,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6620,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS",
         "attribute_name": "ItemCount",
         "prop1": null,
@@ -1543,16 +1450,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 2
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1104",
-          "checksum": "A:e26120e3d75cc52e"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6621",
+          "checksum": "A:6c0048ff325ee75a"
         },
-        "ident": 1104,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6621,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS",
         "attribute_name": "Withdrawls",
         "prop1": null,
@@ -1571,16 +1478,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 1
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1105",
-          "checksum": "A:7bf33495f04eba2a"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6622",
+          "checksum": "A:889f39074f18d2b4"
         },
-        "ident": 1105,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6622,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS_TRANS",
         "attribute_name": null,
         "prop1": "",
@@ -1599,16 +1506,16 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 6
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1106",
-          "checksum": "A:0d54f325280a2976"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6623",
+          "checksum": "A:5ccdd042c5cf75c0"
         },
-        "ident": 1106,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6623,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS_TRANS",
         "attribute_name": null,
         "prop1": null,
@@ -1627,16 +1534,16 @@
         "verbs": "INSERT,",
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 7
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1107",
-          "checksum": "A:426f708b8bde9cfc"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6624",
+          "checksum": "A:f8304fa7c743db4a"
         },
-        "ident": 1107,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6624,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "entity_name": "SAVINGS_TRANS",
         "attribute_name": "Total",
         "prop1": null,
@@ -1655,45 +1562,17 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 3
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1108",
-          "checksum": "A:2c2138487575c04f"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6626",
+          "checksum": "A:aaa8a4c5fc0e59db"
         },
-        "ident": 1108,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "entity_name": "TRANSFR_FUNDS",
-        "attribute_name": null,
-        "prop1": null,
-        "prop2": null,
-        "prop3": null,
-        "prop4": "javascript",
-        "prop5": null,
-        "rule_text1": "if(row.FromAcctNum != row.ToAcct){\n    return false;\n}\nreturn true;",
-        "rule_text2": "You can only transfer between a single members account.",
-        "rule_text3": null,
-        "rule_text4": null,
-        "rule_text5": null,
-        "predicate": null,
-        "name": null,
-        "auto_name": "Validation if(row.FromAcctNum != row.ToAcct){\n    return false;\n}\nreturn true;",
-        "verbs": null,
-        "comments": null,
-        "active": false,
-        "project_ident": 1006,
-        "ruletype_ident": 5
-      },
-      {
-        "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1109",
-          "checksum": "A:c23a066377eafc00"
-        },
-        "ident": 1109,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "entity_name": "TRANSFR_FUNDS",
+        "ident": 6626,
+        "ts": "2014-08-01T20:51:18.000+0000",
+        "entity_name": "TRANSFER_FUNDS",
         "attribute_name": null,
         "prop1": null,
         "prop2": null,
@@ -1711,17 +1590,17 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 5
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1110",
-          "checksum": "A:3117bcccff9cbe42"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6627",
+          "checksum": "A:95e8ec2a6da08728"
         },
-        "ident": 1110,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "entity_name": "TRANSFR_FUNDS",
+        "ident": 6627,
+        "ts": "2014-08-01T20:51:44.000+0000",
+        "entity_name": "TRANSFER_FUNDS",
         "attribute_name": null,
         "prop1": null,
         "prop2": null,
@@ -1739,74 +1618,46 @@
         "verbs": null,
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 5
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1111",
-          "checksum": "A:4fa99a8bc6066954"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/6628",
+          "checksum": "A:051643b9915e3d78"
         },
-        "ident": 1111,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "entity_name": "TRANSFR_FUNDS",
+        "ident": 6628,
+        "ts": "2014-08-01T19:38:19.000+0000",
+        "entity_name": "TRANSFER_FUNDS",
         "attribute_name": null,
         "prop1": null,
         "prop2": null,
         "prop3": null,
         "prop4": "javascript",
         "prop5": null,
-        "rule_text1": "//we will create 2 transactions\n//FROM ACCOUNT, AMOUNT and TO ACCOUNT and AMOUNT\n//add account type to each and mange parent to determine which account\nvar fromBean = true ? 'CHECKING_TRANS' : 'SAVINGS_TRANS';\nvar toBean = false ? 'CHECKING_TRANS' : 'SAVINGS_TRANS';\nvar fromAccount = logicContext.createPersistentBean(fromBean);\nfromAccount.CustNum = row.FromCustNum;\nfromAccount.AcctNum = row.FromAcct;\nfromAccount.WithdrawlAmt = row.TransferAmt;\nfromAccount.DepositAmt = 0;\nfromAccount.PendingFlag = 0;\nlogicContext.insert(fromAccount);\n\nvar toAccount = logicContext.createPersistentBean(toBean);\ntoAccount.CustNum = row.ToCustNum\ntoAccount.AcctNum = row.ToAcct\ntoAccount.DepositAmt = row.TransferAmt;\ntoAccount.PendingFlag = 0;\ntoAccount.WithdrawlAmt = 0;\nlogicContext.insert(toAccount);\n\nreturn true;",
+        "rule_text1": "//we will create 2 transactions\n//FROM ACCOUNT, AMOUNT and TO ACCOUNT and AMOUNT\n//add account type to each and mange parent to determine which account\n\nvar fromBean = true ? 'CHECKING_TRANS' : 'SAVINGS_TRANS';\nvar toBean = false ? 'CHECKING_TRANS' : 'SAVINGS_TRANS';\n\nvar fromAccount = logicContext.createPersistentBean(fromBean);\nfromAccount.CustNum = row.FromCustNum;\nfromAccount.AcctNum = row.FromAcct;\nfromAccount.WithdrawlAmt = row.TransferAmt;\nfromAccount.DepositAmt = 0;\nfromAccount.PendingFlag = 0;\nlogicContext.insert(fromAccount);\n\nvar toAccount = logicContext.createPersistentBean(toBean);\ntoAccount.CustNum = row.ToCustNum\ntoAccount.AcctNum = row.ToAcct\ntoAccount.DepositAmt = row.TransferAmt;\ntoAccount.PendingFlag = 0;\ntoAccount.WithdrawlAmt = 0;\nlogicContext.insert(toAccount);\n\nreturn true;",
         "rule_text2": null,
         "rule_text3": null,
         "rule_text4": null,
         "rule_text5": null,
         "predicate": null,
-        "name": "Transfer funds from different accounts",
+        "name": "Transfer funds from chekccing to savings account",
         "auto_name": "Event: //we will create 2 transactions\n//FROM ACCOUNT, AMOUNT and TO ACCOUNT and AMOUNT\n//add account type to each and mange parent to determine wh...",
         "verbs": "INSERT,",
         "comments": null,
         "active": true,
-        "project_ident": 1006,
+        "project_ident": 2272,
         "ruletype_ident": 7
-      },
-      {
-        "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1112",
-          "checksum": "A:7798997942768d49"
-        },
-        "ident": 1112,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "entity_name": "TRANSFR_FUNDS",
-        "attribute_name": null,
-        "prop1": null,
-        "prop2": null,
-        "prop3": null,
-        "prop4": "javascript",
-        "prop5": null,
-        "rule_text1": "//we will create 2 transactions\n//FROM ACCOUNT, AMOUNT and TO ACCOUNT and AMOUNT\n//add account type to each and mange parent to determine which account\nvar fromBean = true ? 'CHECKING_TRANS' : 'SAVINGS_TRANS';\nvar toBean = false ? 'CHECKING_TRANS' : 'SAVINGS_TRANS';\nvar fromAccount = logicContext.createPersistentBean(fromBean);\nfromAccount.CustNum = row.FromCustNum;\nfromAccount.AcctNum = row.FromAcctNum;\nfromAccount.WithdawlAmt = row.TransferAmt;\n//fromAccount.PendingFlag = 0;\nlogicContext.insert(fromAccount);\n\nvar toAccount = logicContext.createPersistentBean(toBean);\ntoAccount.CustNum = row.ToCustNum\ntoAccount.AcctNum = row.ToAcct\ntoAccount.DepositAmt = row.TransferAmt;\n//toAccount.PendingFlag = 0;\nlogicContext.insert(toAccount);\n\nreturn true;",
-        "rule_text2": null,
-        "rule_text3": null,
-        "rule_text4": null,
-        "rule_text5": null,
-        "predicate": null,
-        "name": "Insert Transfer into Accounts",
-        "auto_name": "Commit event: //we will create 2 transactions\n//FROM ACCOUNT, AMOUNT and TO ACCOUNT and AMOUNT\n//add account type to each and mange parent to deter...",
-        "verbs": "INSERT,",
-        "comments": null,
-        "active": false,
-        "project_ident": 1006,
-        "ruletype_ident": 9
       }
     ],
     "ApiKeys": [
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiKeys/1136",
-          "checksum": "A:bda1428bd1d24a8b"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/5905",
+          "checksum": "A:7a6ab8324def7924"
         },
-        "ident": 1136,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 5905,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "Broad access",
         "description": null,
         "apikey": "demo_full",
@@ -1816,15 +1667,16 @@
         "logging": "*=FINE",
         "user_identifier": null,
         "data": null,
-        "project_ident": 1006
+        "project_ident": 2272,
+        "origin": null
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiKeys/1137",
-          "checksum": "A:70de2a9466ceaecf"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/5906",
+          "checksum": "A:3c2e2d8ebdd926ee"
         },
-        "ident": 1137,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 5906,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "Restricted access",
         "description": null,
         "apikey": "demo_restricted",
@@ -1834,15 +1686,16 @@
         "logging": null,
         "user_identifier": null,
         "data": "customerName=Bravo Hardware",
-        "project_ident": 1006
+        "project_ident": 2272,
+        "origin": null
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiKeys/1138",
-          "checksum": "A:99f875ee5bcc4a81"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/5907",
+          "checksum": "A:6d3a31ae37f14f75"
         },
-        "ident": 1138,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 5907,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "SalesRep",
         "description": null,
         "apikey": "SalesRepApiKey",
@@ -1852,66 +1705,37 @@
         "logging": "*=FINE",
         "user_identifier": "Sam",
         "data": null,
-        "project_ident": 1006
+        "project_ident": 2272,
+        "origin": null
       }
     ],
     "EventHandlers": [
-      {
-        "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.EventHandlers/1006",
-          "checksum": "A:b41704d87dfb690a"
-        },
-        "ident": 1006,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "name": "AuditLogin",
-        "description": null,
-        "code": "// Event handling code goes here\nif (req.verb == \"POST\" ) {\n    log.debug('POST');\n    log.debug(req.clientAddress);\n    log.debug(req.apiKey);\n    log.debug(req.resourceName);\nvar json = JSON.parse(req.json);\nfor (var i in req) { log.debug(\"****req \" + i); }\nfor (var i in JSON.parse(req.json)) { log.debug(\"!!!!!json \" + i); }\n}",
-        "active": true,
-        "eventtype_ident": 1,
-        "code_type": null,
-        "project_ident": 1006
-      }
     ],
     "Handlers": [
-      {
-        "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Handlers/1001",
-          "checksum": "A:292363dc9a1c670f"
-        },
-        "ident": 1001,
-        "ts": "2014-07-17T08:22:03.000+0000",
-        "name": "AuditLogon",
-        "active": true,
-        "url_pattern": ".*",
-        "verbs": "GET,",
-        "code": "var res = {result: 'Hello'};\nreturn JSON.stringify(res);\n",
-        "comments": null,
-        "project_ident": 1006
-      }
     ],
     "Roles": [
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles/1015",
-          "checksum": "A:8ff6776b60265360"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles/6921",
+          "checksum": "A:1173523138e3fed0"
         },
-        "ident": 1015,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6921,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "App owner",
         "description": "Full permissions on the entire project",
         "default_permission": "A",
+        "project_ident": 2272,
         "default_apivisibility": "TVPRM",
-        "project_ident": 1006,
         "ApiKeyRoles": [
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/1132",
-              "checksum": "A:1e6730a9d797e986"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/7662",
+              "checksum": "A:908c3f4279a20e2a"
             },
-            "ident": 1132,
-            "ts": "2014-07-17T08:22:03.000+0000",
-            "apikey_ident": 1136,
-            "role_ident": 1015
+            "ident": 7662,
+            "ts": "2014-07-24T17:27:30.000+0000",
+            "apikey_ident": 5905,
+            "role_ident": 6921
           }
         ],
         "PermissionData": [
@@ -1921,110 +1745,120 @@
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles/1016",
-          "checksum": "A:7c2a0a7fa1976a90"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles/6922",
+          "checksum": "A:08038d836a229be2"
         },
-        "ident": 1016,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6922,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "App user",
         "description": "Limited permissions on the entire project",
         "default_permission": "RIU",
+        "project_ident": 2272,
         "default_apivisibility": "RM",
-        "project_ident": 1006,
         "ApiKeyRoles": [
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/7663",
+              "checksum": "A:6895464317f26bc4"
+            },
+            "ident": 7663,
+            "ts": "2014-07-24T17:27:30.000+0000",
+            "apikey_ident": 5906,
+            "role_ident": 6922
+          }
         ],
         "PermissionData": [
         ],
         "TablePermissions": [
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/1023",
-              "checksum": "A:7dc79dbc54af4681"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/5909",
+              "checksum": "A:1083b94651ac3d60"
             },
-            "ident": 1023,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 5909,
+            "ts": "2014-07-24T17:27:30.000+0000",
             "name": "Access customers",
             "description": "only customers associated with current user, per apiKey (see Details tab, Globals)",
             "table_name": "customer",
             "column_names": null,
             "predicate": "name='@{customerName}'",
             "access_type": "R",
-            "role_ident": 1016
+            "role_ident": 6922
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/1024",
-              "checksum": "A:7d13d0c3511ff328"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/5910",
+              "checksum": "A:cf1d64a9dc5ebb23"
             },
-            "ident": 1024,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 5910,
+            "ts": "2014-07-24T17:27:30.000+0000",
             "name": "Access orders",
             "description": "only orders associated with customer(s) for current user, per apiKey (see Details tab, Globals)",
             "table_name": "PurchaseOrder",
             "column_names": null,
             "predicate": "customer_name = '@{customerName}'",
             "access_type": "R",
-            "role_ident": 1016
+            "role_ident": 6922
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/1025",
-              "checksum": "A:d0ce2b0ee7014fdf"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/5911",
+              "checksum": "A:218c72280f5b7bec"
             },
-            "ident": 1025,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 5911,
+            "ts": "2014-07-24T17:27:30.000+0000",
             "name": "Access lineitems",
             "description": "only line items associated with customer(s) for current user, per apiKey (see Details tab, Globals)",
             "table_name": "LineItem",
             "column_names": null,
             "predicate": "lineitem_purchaseorder.customer_name = '@{customerName}'",
             "access_type": "A",
-            "role_ident": 1016
+            "role_ident": 6922
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/1026",
-              "checksum": "A:d31dfc2ca39c87ba"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/5912",
+              "checksum": "A:b3a6bb32bce5d7b1"
             },
-            "ident": 1026,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 5912,
+            "ts": "2014-07-24T17:27:30.000+0000",
             "name": "Access products all restricted",
             "description": "column security - product_number & name visible to all, but not insert",
             "table_name": "product",
             "column_names": "product_number,name",
             "predicate": null,
             "access_type": "RU",
-            "role_ident": 1016
+            "role_ident": 6922
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/1027",
-              "checksum": "A:b09d6c62e1ef90f5"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/5913",
+              "checksum": "A:0435f3cba99bc0b7"
             },
-            "ident": 1027,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 5913,
+            "ts": "2014-07-24T17:27:30.000+0000",
             "name": "Access products 2 full",
             "description": "column security - product_number & name visible to all with insert, product 2 only",
             "table_name": "product",
             "column_names": null,
             "predicate": "product_number = 2",
             "access_type": "A",
-            "role_ident": 1016
+            "role_ident": 6922
           }
         ]
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles/1017",
-          "checksum": "A:b167f455f2dbb022"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles/6923",
+          "checksum": "A:9220b1a1ac912021"
         },
-        "ident": 1017,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6923,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "BankTeller",
         "description": null,
         "default_permission": "RIU",
+        "project_ident": 2272,
         "default_apivisibility": "VRPM",
-        "project_ident": 1006,
         "ApiKeyRoles": [
         ],
         "PermissionData": [
@@ -2034,104 +1868,75 @@
       },
       {
         "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles/1018",
-          "checksum": "A:38d50e50a84214a6"
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles/6924",
+          "checksum": "A:cc18e62a48ba9a54"
         },
-        "ident": 1018,
-        "ts": "2014-07-17T10:08:42.000+0000",
-        "name": "Read Only",
-        "description": null,
-        "default_permission": "R",
-        "default_apivisibility": "M",
-        "project_ident": 1006,
-        "ApiKeyRoles": [
-          {
-            "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/1137",
-              "checksum": "A:03577443395d3938"
-            },
-            "ident": 1137,
-            "ts": "2014-07-17T10:09:34.000+0000",
-            "apikey_ident": 1137,
-            "role_ident": 1018
-          }
-        ],
-        "PermissionData": [
-        ],
-        "TablePermissions": [
-        ]
-      },
-      {
-        "@metadata": {
-          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles/1019",
-          "checksum": "A:e35d6c11ed24e3d4"
-        },
-        "ident": 1019,
-        "ts": "2014-07-17T08:22:03.000+0000",
+        "ident": 6924,
+        "ts": "2014-07-24T17:27:30.000+0000",
         "name": "Sales Rep",
         "description": "Preselects orders",
         "default_permission": "N",
+        "project_ident": 2272,
         "default_apivisibility": "RM",
-        "project_ident": 1006,
         "ApiKeyRoles": [
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/1134",
-              "checksum": "A:1bae0745cf6ca2c4"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/7664",
+              "checksum": "A:cf439bd18f8a9242"
             },
-            "ident": 1134,
-            "ts": "2014-07-17T08:22:03.000+0000",
-            "apikey_ident": 1138,
-            "role_ident": 1019
+            "ident": 7664,
+            "ts": "2014-07-24T17:27:30.000+0000",
+            "apikey_ident": 5907,
+            "role_ident": 6924
           }
         ],
         "PermissionData": [
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.PermissionData/1005",
-              "checksum": "A:431de78104159447"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.PermissionData/1706",
+              "checksum": "A:ae0f05e0c08b0fd0"
             },
-            "ident": 1005,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 1706,
+            "ts": "2014-07-24T17:27:30.000+0000",
             "name": "current_employee_row",
             "description": null,
             "query": "* from employee where login = '@{_apikey.user_identifier}' ",
             "query_order": 1,
             "required": true,
             "code_type": "SQL",
-            "role_ident": 1019
+            "role_ident": 6924
           }
         ],
         "TablePermissions": [
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/1028",
-              "checksum": "A:3b0770fa78461344"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/5914",
+              "checksum": "A:59ac40290f848ee3"
             },
-            "ident": 1028,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 5914,
+            "ts": "2014-07-24T17:27:30.000+0000",
             "name": "My Orders - no update of paid flag",
             "description": "Read, insert and delete my orders (see Globals tab), cannot update paid flag",
             "table_name": "PurchaseOrder",
             "column_names": "paid",
             "predicate": "salesrep_id = @{current_employee_row.employee_id}",
             "access_type": "RID",
-            "role_ident": 1019
+            "role_ident": 6924
           },
           {
             "@metadata": {
-              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/1029",
-              "checksum": "A:91c130eca631aafc"
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.TablePermissions/5915",
+              "checksum": "A:38f844db3a92db6e"
             },
-            "ident": 1029,
-            "ts": "2014-07-17T08:22:03.000+0000",
+            "ident": 5915,
+            "ts": "2014-07-24T17:27:31.000+0000",
             "name": "My Orders Write",
             "description": "read, insert and delete my orders (see Globals tab), any columns",
             "table_name": "PurchaseOrder",
             "column_names": "order_number,amount_total,notes,customer_name,salesrep_id",
             "predicate": "salesrep_id = @{current_employee_row.employee_id}",
             "access_type": "A",
-            "role_ident": 1019
+            "role_ident": 6924
           }
         ]
       }
