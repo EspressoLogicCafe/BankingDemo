@@ -14,8 +14,8 @@ This is an Espresso Logic sample application showing how rules are used to calcu
 1. Click on LiveBrowser and view customers, accounts, and transactions
 2. Transfer money from checking to savings (try to overdraw the account)
 3. In the Logic Design Studio - click on Logs to see a complete trace of SQL and Business logic rules processed for each transaction
-4. 
-##appery.io###
+
+###appery.io###
 1. upload the zip backup files to your appery.io project
 2. change the REST endpoints in each of the services to use your Espresso Logic service endpoint
 3. RUn the test in the emulator (see the pdf documentation file).
