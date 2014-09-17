@@ -18,5 +18,5 @@ This is an Espresso Logic sample application showing how rules are used to calcu
 ###appery.io###
 1. upload the zip backup files to your appery.io project
 2. change the REST endpoints in each of the services to use your Espresso Logic service endpoint
-3. RUn the test in the emulator (see the pdf documentation file).
+3. Run the test in the emulator (see the pdf documentation file).
 
