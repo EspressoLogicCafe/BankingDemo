@@ -307,6 +307,79 @@ ENGINE = InnoDB;
 CREATE INDEX `fk_LOC_TRANSACTIONS_LINE_OF_CREDIT1_idx` ON `LOC_TRANSACTIONS` (`CustNum` ASC, `AcctNum` ASC);
 
 
+
+-- -----------------------------------------------------
+-- Data for table `valid_state`
+-- -----------------------------------------------------
+START TRANSACTION;
+
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('AK', 'Alaska');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('AL', 'Alabama');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('AR', 'Arkansas');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('AZ', 'Arizona');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('CA', 'California');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('CO', 'Colorado');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('CT', 'Connecticut');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('DE', 'Delaware');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('FL', 'Florida');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('GA', 'Georgia');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('HI', 'Hawaii');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('IA', 'Iowa');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('ID', 'Idaho');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('IL', 'Illinois');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('IN', 'Indiana');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('KS', 'Kansas');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('KY', 'Kentucky');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('LA', 'Louisiana');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('MA', 'Massachusetts');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('MD', 'Maryland');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('ME', 'Maine');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('MI', 'Michigan');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('MN', 'Minnesota');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('MO', 'Missouri');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('MS', 'Mississippi');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('MT', 'Montana');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('NC', 'North Carolina');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('ND', 'North Dakota');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('NE', 'Nebraska');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('NH', 'New Hampshire');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('NJ', 'New Jersey');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('NM', 'New Mexico');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('NV', 'Nevada');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('NY', 'NewYork');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('OH', 'Ohio');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('OK', 'Oklahoma');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('OR', 'Oregon');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('PA', 'Pennsylvania');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('RI', 'Rhode Island');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('SC', 'South Carolina');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('SD', 'South Dakota');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('TN', 'Tennessee');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('TX', 'Texas');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('UT', 'Utah');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('VA', 'Virginia');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('VT', 'Vermont');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('WA', 'Washington');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('WI', 'Wisconsin');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('WV', 'West Virginia');
+INSERT INTO `valid_state` (`stateCode`, `stateName`) VALUES ('WY', 'Wyoming');
+
+COMMIT;
+
+-- -----------------------------------------------------
+-- Data for table `valid_credit`
+-- -----------------------------------------------------
+START TRANSACTION;
+
+INSERT INTO `valid_credit` (`creditCode`, `displayValue`, `MaxCreditLimit`) VALUES (1, 'Excellent', 5000);
+INSERT INTO `valid_credit` (`creditCode`, `displayValue`, `MaxCreditLimit`) VALUES (2, 'Good', 1000);
+INSERT INTO `valid_credit` (`creditCode`, `displayValue`, `MaxCreditLimit`) VALUES (3, 'Fair', 500);
+INSERT INTO `valid_credit` (`creditCode`, `displayValue`, `MaxCreditLimit`) VALUES (4, 'Poor', 250);
+INSERT INTO `valid_credit` (`creditCode`, `displayValue`, `MaxCreditLimit`) VALUES (5, 'No Credit', 0);
+
+COMMIT;
+
+
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
